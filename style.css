@@ -1,8 +1,8 @@
 * {margin:0;padding:0;}
 
-html	
+html    
 {
-background: url(images/bg2.png);
+background-color:#fff;
 height: 100%;
 }
 
@@ -10,8 +10,8 @@ body
 {
 height:100%;
 text-align:justify;
-font:13.5px tahoma, sans-serif, arial;
-color: #c4d6d8;
+font:14px Arial, tahoma, sans-serif, arial;
+color: #404040;
 line-height:17px;
 }
 
@@ -24,7 +24,7 @@ text-decoration:none;
 
 a:hover, a:active
 {
-color:#fff;
+color:#6fcb9f;
 text-decoration:none;
 }
 
@@ -44,55 +44,22 @@ text-decoration:none;
 #top_bg_rep
 {
 
-    margin:0px;
+    margin:0px 0px auto 0px;
     padding:0px;
-    background: url(images/repeat-x-top.png) top repeat-x;
+    background-color:#000;
+    height: 60px; 
+    width: 100%; 
 
 }
 
-#bottom_bg_rep
-{
-    position:relative;
-    margin:0px;
-    padding:0px;
-    background: url(images/repeat-x-bottom.png) bottom repeat-x;
-    height:100%;
-}
 
-
-#wrap
-{
-    margin:auto;
-    width:779px;
-    vertical-align:center;
-}
-
-#header
-{
-    background: url(images/header.png) no-repeat center top;
-    height:186px;
-}
-
-#main_content
-{
-    width: 779px;
-    margin:0px;
-    background: url(images/content_bg.png) repeat-y center top;
-    min-height:350px;
-    height:100%
-}
-#footer
-{
-    margin:0px;
-    background: url(images/footer.png) no-repeat center bottom;
-    height:159px;
-    text-align:center;
-}
 
 #actual_content
 {
-    margin:10px 30px 0px 30px;
-    padding-bottom:40px;
+    width:780px;
+    vertical-align:center;
+    margin:auto auto auto auto;
+    padding-top: 70px;
     float:center;
     min-height:100px;
 }
@@ -101,7 +68,7 @@ text-decoration:none;
 
 #nav 
 {
-    width: 680px;
+    width: 500px;
     height:80px;
     margin:0px auto 0px auto;
     padding-top:10px;
@@ -113,13 +80,12 @@ text-decoration:none;
 
 #nav a:hover
 {
-    background: url(images/nav_bar_a.png) no-repeat;
     color:#c6884a;
 }
 
 #nav a:active
 {
-    background: url(images/nav_bar_a.png) no-repeat;
+
     color:#c6884a;
 }
 
@@ -128,10 +94,9 @@ text-decoration:none;
     display: inline-block;
     height: 36px;
     width:149px;
-    background: url(images/nav_bar.png) no-repeat;
     font: bold 18px tahoma,sans-serif;
     line-height:34px;
-    color:#87b9a0;
+    color:#E8E8E8 ;
 }
 
 #nav #home
@@ -142,7 +107,7 @@ text-decoration:none;
     float:left;
 }
 
-#nav #research
+#nav #resume
 {
     margin:0px 0 0 20px;
     width:149px;
@@ -150,7 +115,7 @@ text-decoration:none;
     float:left;
 }
 
-#nav #cv
+#nav #projects
 {
     margin:0px 0 0 20px;
     width:149px;
@@ -158,7 +123,7 @@ text-decoration:none;
     float:left;
 }
 
-#nav #contact
+#nav #github
 {
     margin:0px 0 0 20px;
     width:149px;
@@ -176,11 +141,11 @@ text-decoration:none;
 
 h1
 {
-    font: bold 30px verdana,tahoma;
-    color:#a2a47f;
-    margin: 0 0 25px 0;
-    padding-left:4px;
-    text-transform:uppercase;
+    font: 50px Arial, verdana,tahoma;
+    color:#004444;
+    margin: 0px;
+    padding-left:13px;
+    letter-spacing: 1px;
 }
 
 h2
@@ -216,7 +181,8 @@ padding:0 4px 10px 16px;
 
 img
 {
-   padding:4px 6px 4px 6px; 
-    
+   margin: 0px 10px 10px 10px; 
+   padding:0px; 
+   border:1px solid #000;
 }
 

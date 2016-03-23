@@ -1,0 +1,69 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+        <title>Qandeel Sajid | Welcome!</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+            
+    </head>
+    
+    <body>
+        
+        <!-- Image -->
+<div id="top_bg_rep">
+<div id="bottom_bg_rep">
+    <div id="wrap">
+        
+        <div id="header">
+        </div>
+        
+        <div id="main_content">
+            <div id="nav">
+                <div id="home"><a href="index.html">Home</a></div>
+                <div id="research"><a href="research.html">Research</a></div>
+                <div id="cv"><a href="cv.html">CV</a></div>
+                <div id="contact"><a href="contact.html">Contact</a></div>
+                
+            </div>
+            
+            <div id="actual_content">
+        <h1>Research</h1>
+            <h2>Multiagent Pathfinding in Continuous Space</h2>
+            <p><img src="images/continuous.png" width="200" height="200" align="right">
+                Motivated by eficient algorithms for solving combinatorial and discrete instances of the multi-agent pathfinding problem, this report investigates ways to utilize such solutions to solve similar problems in the continuous domain. While a simple discretization of the space which allows the direct application of combinatorial algorithms seems like a straightforward solution, there are additional constraints that such a discretization needs to satisfy in order to be able to provide some form of completeness guarantees in general coniguration spaces. This report reviews ideas on how to utilize combinatorial algorithms to solve continuous multiagent pathfinding problems. It aims to collect feedback from the community regarding the importance and the complexity of this challenge, as well as the appropriateness of the solutions considered here</p>
+            
+            <h3>Publications</h3>
+            <p>Athanasios Krontiris, <b>Qandeel Sajid</b>, Kostas E Bekris. "Towards Using Discrete Multiagent
+            Pathfinding to Address Continuous Problems", In the Workshops at the Twenty-Sixth AAAI Conference on Artificial Intelligence, July 22-July 23, 2012, Toronto, Canada. [<a href="http://www.aaai.org/ocs/index.php/WS/AAAIW12/paper/viewFile/5328/5641">PDF</a>]
+            
+            <h2>Parallel Push and Swap</h2>
+            <p><img src="images/parallel_ps.png" width="220" height="100" align="right">
+                Multi-agent pathfinding is a challenging combinatorial problem that involves multiple agents moving on a graph from a set of initial nodes to a set of desired goals without inter-agent collisions. Searching the composite space of all agents has exponential complexity and does not scale well. Decoupled methods are more efficient but are generally incomplete. There are, however, polynomial time algorithms, which utilize single or few agents primitives with completeness guarantees. One limitation of these alternatives is that the resulting solution is sequential, where only one agent moves at a time. Such solutions are of low quality when compared to methods where multiple agents can move simultaneously. This work proposes an algorithm for multi-agent pathfinding that utilizes similar single-agent primitives but allows all agents to move in parallel. The paper describes the algorithm and its properties. Experimental comparisons suggest that the resulting paths are considerably better than sequential ones, even after a post-processing, parallelization step, as well as solutions returned by decoupled and coupled alternatives. The experiments also suggest good scalability and competitive computational performance.</p>
+            
+             <h3>Publications</h3>
+               <p><b>Qandeel Sajid</b>, Ryan Luna, and Kostas E. Bekris, "Multi-Agent Pathfinding with Simultaneous Execution of Single-Agent Primitives", In The 5th Annual Symposium on Combinatorial Search (SoCS), July 19-21, 2012, Niagara Falls, Canada. [<a href="http://www.aaai.org/ocs/index.php/SOCS/SOCS12/paper/viewFile/5385/5181">PDF</a>]   
+               
+               
+                </div>
+        </div>
+        
+        <div id="footer">
+            <div style="padding-top:16px;font:13.5px tahoma, sans-serif, arial;color:#6ab1b5;">
+                sajid@usc.edu<br />
+                Ronald Tutor Hall (RTH)<br />
+                3710 McClintock Ave, Room 423<br />
+                Los Angeles, CA 90089-0781<br /><br />
+                Last Modified: May 8th, 2015
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+</div>
+
+    </body>
+</html>
